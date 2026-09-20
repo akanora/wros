@@ -17,7 +17,7 @@
  */
 
 // TODO?
-// - Native to automatically download (and cache) a replay file?
+// - Add a cache (load replay) option to WROS_RequestReplay? Maybe: (const char[] path, any data, frame_cache_t cache); for WROS_ReplayDownloadedFunc?
 // - Maybe LOOPING replay bot?
 // - Pretty sure i forgot something.. ( ͡° ͜ʖ ͡°)
 
@@ -51,7 +51,7 @@ public Plugin myinfo =
 	name = "Offstyle World Record",
 	author = "rtldg & Nairda, ƤɾσƅƖeɱ?",
 	description = "Grabs WRs from the Offstyle DB API",
-	version = "0.8.11"
+	version = "0.8.12"
 }
 
 // #define CUSTOM_BUILD // Enables custom stuff that are not part of the public build of shavits bhoptimer
